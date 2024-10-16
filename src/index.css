@@ -1,0 +1,205 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+body {
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
+  background-size: 20px 20px;
+  overflow-x: hidden;
+
+}
+.underscore{
+  font-size: 50px;
+}
+.customBackground {  
+  background-color: #0e0e16;
+  min-height: 100px;
+}
+.homeBackground {
+  background-image: url('https://raw.githubusercontent.com/Deepak0320Singhal/Deepak0320Singhal.github.io/main/public/Background-img.webp'); 
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+  letter-spacing: 3px;
+  /* calc(100vh - 80px)  */
+}
+.homeTitle{
+  line-height: 72px;
+  font-weight: bolder;
+  padding-top: 150px;
+  padding-left: 220px;
+  color: aliceblue;
+  align-items: center;
+  font-size: 48px;
+  
+}
+#project{
+  height: 1500px;
+}
+.text-custom {
+  color: #f97316 !important;
+}
+
+/* Skill page CSS starts from here */
+.skills{
+  height: 650px;
+  padding:30px 0px;
+  
+}
+#skill{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+.card-container {
+  margin: auto;
+  /* display: flex; */
+   /* justify-content: space-between; Adjusts the spacing between cards */
+   /* gap: 20px; Adds a gap between cards */
+}
+.customCard{
+  box-sizing: border-box;
+  height: 500px;
+  margin: 10px; /* Adds spacing between cards */
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  vertical-align: top; /* Aligns the cards to the top */
+  background-color: #212121; 
+}
+.customCard:hover{
+  background-color:#1f1a1a ;
+}
+.customCard h3{
+  padding:20px 0px 30px 20px;
+  color: white;
+}
+.customCard p{
+  color: #fff;
+  padding: 0px 20px;
+  letter-spacing: 2px;
+  text-overflow: ellipsis;
+}
+.svg-box{
+  background-color: rgb(0, 60, 255);
+  height: 110px;
+  width: 110px;
+  border-radius: 60px;
+  margin: 50px 20px 30px 30px;
+}
+.svg-icon{
+  margin:50px 20px 20px 25px;
+  padding-top: 22px;
+
+  height: 60px;
+  width: 60px;
+  color: white; 
+}
+/* This is the space btw skills card */
+.slick-slide > div{
+  margin:0px 30px;
+
+}
+.slick-dots{          
+  height: 50px;
+}
+
+/* Contact me Page CSS */
+.contact{
+  padding-top: 80px;
+  height: 800px;
+}
+.myform{
+  width: 80%;
+  margin: 0px auto;
+}
+.myform .child{
+  background: radial-gradient(#ffffff33 1px, #00091d 1px);
+  margin: 20px;
+  border: 1px solid #fff;
+  height: 75px;
+  color: #fff;
+}
+
+.myform button{
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 21px;
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
+}
+/* This is the css for Footer */
+.footer{
+  height: 100px;
+  border-top: 1px solid #fff;
+
+}
+.name {
+  height: 100%;
+  margin: 18px;
+}
+
+  .name img{
+      display: inline;
+      height: 50px;
+      width: 40px;
+  } 
+  .name p {
+    display: inline;
+    padding-left: 19px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+@media screen and (max-width:410px) {
+  .homeTitle{
+  padding:0px 15px;
+  font-weight: bold;
+  padding-top: 150px;
+  /* padding-left: 220px; */
+  color: aliceblue;
+  font-size: 30px;
+  }
+  .homeBackground {
+    margin-top: -20px;
+    letter-spacing: 1px;
+  }
+  /* Footer */
+  .footer{
+    height: 200px;
+  }
+  .name {
+    height: 100%;
+    font-size: 14px;
+    margin: 27px;
+    margin-left: 12%;
+  }
+  .name p{
+    display: inline;
+    padding-left: 14px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width:580px) {
+  .homeTitle{
+    padding-left: 120px; 
+  }
+}
